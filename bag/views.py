@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect
 def view_bag(request):
     """ A view that renders the bag contents page """
     return render(request,'bag/bag.html')
-s
+
 def add_to_bag(request, item_id):
     """ A view that renders the bag contents page """
     quantity = int(request.POST.get('quantity'))
@@ -19,5 +19,4 @@ def add_to_bag(request, item_id):
         bag[item_id] = quantity
 
     request.session['bag'] = bag
-    print(request.session['bag'])
     return redirect(redirect_url)
