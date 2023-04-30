@@ -120,7 +120,6 @@ a.category-badge>span.badge:hover {
     height: 2px;
 }
 
-
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -172,6 +171,11 @@ a.category-badge>span.badge:hover {
     overflow-y: auto;
 }
 
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 /* -------------------------------- Media Queries */
 
