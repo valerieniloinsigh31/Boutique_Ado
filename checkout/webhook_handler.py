@@ -18,6 +18,8 @@ from django.http import HttpResponse
             """
             Handle the payment intent succeeded hook from Stripe
             """
+            intent = event.data.object
+            print(intent)
             return HttpResponse(
                 content=f'Webhook received: {["type"]}',
                 status=200)
