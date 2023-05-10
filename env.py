@@ -7,4 +7,4 @@ os.environ['DATABASE_URL'] = 'postgres://ftmpxxrc:IkQQAWwYjBae3fe6j_b7QpK6X7Z2-u
 os.environ['SECRET_KEY'] = 'Douglasgym1'
 os.environ['EMAIL_HOST_USER'] = 'valerieniloinsigh25@gmail.com'
 os.environ['EMAIL_HOST_PASS'] = 'njhtpnbbncekdxav'
-'
+
